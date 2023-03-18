@@ -6,5 +6,5 @@
 
 ```sh
 npm run build; npm run serve
-# http://localhost:8080/?s={ encodeURIComponent(JSON.stringify(JSON.parse(`${json}`))) }
+# http://localhost:8080/?s={ encodeURIComponent(`${url}`) }
 ```

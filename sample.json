@@ -2,81 +2,27 @@
     "origin": "2023-03-18T00:00:00.000Z",
     "events": [
         {
-            "description": "印刷",
+            "description": "2営業日前",
             "duration": {
-                "closedDayRule": "none",
-                "days": -21
+                "closedDayRule": "weekdays",
+                "days": -2
             },
             "childNodes": [
                 {
-                    "description": "3校～念校",
+                    "description": "3営業日前",
                     "duration": {
-                        "closedDayRule": "gihyo",
-                        "days": -5
+                        "closedDayRule": "weekdays",
+                        "days": -1
                     },
-                    "childNodes": [
-                        {
-                            "description": "3校制作",
-                            "duration": {
-                                "closedDayRule": "weekdays",
-                                "days": -5
-                            },
-                            "childNodes": [
-                                {
-                                    "description": "再校",
-                                    "duration": {
-                                        "closedDayRule": "gihyo",
-                                        "days": -7
-                                    },
-                                    "childNodes": [
-                                        {
-                                            "description": "再校制作",
-                                            "duration": {
-                                                "closedDayRule": "weekdays",
-                                                "days": -5
-                                            },
-                                            "childNodes": [
-                                                {
-                                                    "description": "初校",
-                                                    "duration": {
-                                                        "closedDayRule": "gihyo",
-                                                        "days": -7
-                                                    },
-                                                    "childNodes": [
-                                                        {
-                                                            "description": "初校制作",
-                                                            "duration": {
-                                                                "closedDayRule": "weekdays",
-                                                                "days": -8
-                                                            },
-                                                            "childNodes": [
-                                                                {
-                                                                    "description": "原稿整理",
-                                                                    "duration": {
-                                                                        "closedDayRule": "gihyo",
-                                                                        "days": -5
-                                                                    },
-                                                                    "childNodes": []
-                                                                }
-                                                            ]
-                                                        }
-                                                    ]
-                                                }
-                                            ]
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
+                    "childNodes": []
                 }
             ]
         },
         {
-            "description": "配本",
+            "description": "2日後",
             "duration": {
                 "closedDayRule": "none",
-                "days": 7
+                "days": 2
             },
             "childNodes": []
         }
